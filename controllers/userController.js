@@ -36,7 +36,7 @@ const getUserById = async (req, res) => {
     if (!userId) {
       return res.status(404).send({
         success: false,
-        message: "Provide Student Id"
+        message: "Provide Id"
       })
     }
 
@@ -110,7 +110,7 @@ const deleteById = async (req, res) => {
     if (!userId) {
       return res.status(404).send({
         success: false,
-        message: "Provide Student Id"
+        message: "Provide  Id"
       })
     }
 
